@@ -19,13 +19,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/PuerkitoBio/throttled"
-	"github.com/PuerkitoBio/throttled/store"
 	"github.com/codegangsta/cli"
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/binding"
 	"github.com/martini-contrib/cors"
 	"github.com/tgulacsi/go/temp"
+	"github.com/throttled/throttled"
+	"github.com/throttled/throttled/store"
 )
 
 // UploadForm is a form structure to use when an image is POSTed to the server
